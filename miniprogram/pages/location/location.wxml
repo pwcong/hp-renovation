@@ -1,0 +1,17 @@
+<!--pages/location/location.wxml-->
+<view class="container">
+  <map 
+    id="myMap" 
+    longitude="{{longitude}}" 
+    latitude="{{latitude}}"
+    markers="{{markers}}" 
+    bindmarkertap="markertap"  
+    controls="{{controls}}" 
+    bindcontroltap="controltap"
+    bindregionchange="regionchange"
+    show-location 
+    style="width: 100%; height: 100%;">
+  </map>
+
+
+</view>

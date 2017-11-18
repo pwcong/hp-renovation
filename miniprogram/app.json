@@ -1,11 +1,33 @@
 {
-  "pages":[
-    "pages/index/index"
+  "pages": [
+    "pages/index/index",
+    "pages/service/service",
+    "pages/location/location"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#d81e06",
     "navigationBarTitleText": "辉鹏不锈钢装饰店",
-    "navigationBarTextStyle":"black"
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "backgroundColor": "white",
+    "selectedColor": "#d81e06",
+    "borderStyle": "black",
+    "color": "#8a8a8a",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "assets/imgs/icon_home.png",
+        "selectedIconPath": "assets/imgs/icon_home_.png"
+      },
+      {
+        "pagePath": "pages/service/service",
+        "text": "业务",
+        "iconPath": "assets/imgs/icon_work.png",
+        "selectedIconPath": "assets/imgs/icon_work_.png"
+      }
+    ]
   }
 }

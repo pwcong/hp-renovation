@@ -1,0 +1,4 @@
+<!--pages/location/service.wxml-->
+<view class="container">
+  service
+</view>

@@ -1,7 +1,41 @@
 <!--index.wxml-->
 <view class="container">
-  <view class="userinfo">
-    <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
-    <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+  <swiper class="banner" autoplay="true" interval="5000" duration="1000" circular="true">
+    <swiper-item class="banner-item banner-item-main">
+      <view>
+        辉鹏不锈钢装饰
+        <view style="font-size: 13px; color: #aaa; margin-top: 16rpx;">装修 / 设计 / 制作</view>
+      </view>
+      <image src="../../assets/imgs/hp_logo.png" class="banner-logo" mode="scaleToFill"/>
+    </swiper-item>
+    <swiper-item class="banner-item">
+      <image src="../../assets/imgs/sign.jpg" class="banner-sign" mode="scaleToFill"/>
+    </swiper-item>
+
+  </swiper>
+  <view class="content">
+    <view class="content-item" bindtap="handleNavigateToLocation">
+      <image src="../../assets/imgs/icon_address.png"/>
+      <text>深圳市龙岗区平龙西路77-4号</text>
+    </view>
+    <view class="content-item" bindtap="handleToShowWorkTime">
+      <image src="../../assets/imgs/icon_time.png"/>
+      <text>9:00 - 19:00</text>
+    </view>
+    <view class="content-item" bindtap="handleToCallPhone">
+      <image src="../../assets/imgs/icon_phone.png"/>
+      <text>0755-84665789</text>
+    </view>
+    <view class="content-item" bindtap="handleToCallMobilePhone">
+      <image src="../../assets/imgs/icon_mobile.png"/>
+      <text>13715236126</text>
+    </view>
+  
   </view>
+
+  <view class="imgs">
+  
+
+  </view>
+
 </view>
