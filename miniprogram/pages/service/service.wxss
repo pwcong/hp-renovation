@@ -1,1 +1,24 @@
 /* pages/location/service.wxss */
+
+.services{
+  box-sizing: border-box;
+  padding: 0 32rpx;
+}
+
+.service{
+  font-size: 20px;
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  box-shadow: 0 0 2px #aaa;
+  margin: 32rpx 0;
+  color: #222;
+}
+
+.service image{ 
+  margin-right: 32rpx;
+  width: 260rpx;
+  height: 180rpx;
+
+}

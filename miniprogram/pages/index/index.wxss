@@ -60,3 +60,18 @@
   font-size: 14px;
   color: #333;
 }
+
+.imgs{
+
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  box-sizing: border-box;
+  padding: 16px;
+
+}
+
+.imgs image{
+  width: 260rpx;
+  height: 180rpx;
+}

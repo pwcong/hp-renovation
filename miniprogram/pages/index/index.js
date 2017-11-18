@@ -31,6 +31,12 @@ Page({
       phoneNumber: '13715236126'
     })
   },
+  handleTapImage(){
+    const that = this
+    wx.previewImage({
+      urls: that.data.imgs
+    })
+  },
   onLoad(){
 
     const that = this
@@ -39,7 +45,10 @@ Page({
       url: 'https://raw.githubusercontent.com/pwcong/hp-renovation/master/design/static.json',
       dataType: 'json',
       success: function(res){
-        console.log(res)
+        that.setData({
+          imgs: res.data.imgs
+        })
+ 
       }
     })
 

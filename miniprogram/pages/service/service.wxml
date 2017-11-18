@@ -1,4 +1,36 @@
 <!--pages/location/service.wxml-->
 <view class="container">
-  service
+
+  <view class="services">
+    <view class='service'>
+      <image src="../../assets/imgs/haohuamen.jpg" mode="scaleToFill"/>
+      <text>豪华铁门</text>
+    </view>
+    <view class='service'>
+      <image src="../../assets/imgs/nihongdeng.jpg" mode="scaleToFill"/>
+      <text>霓虹灯工程</text>
+    </view>
+    <view class='service'>
+      <image src="../../assets/imgs/pumianzhuangxiu.jpg" mode="scaleToFill"/>
+      <text>铺面装修</text>
+    </view>
+    <view class='service'>
+      <image src="../../assets/imgs/langanfushou.jpg" mode="scaleToFill"/>
+      <text>栏杆扶手</text>
+    </view>
+    <view class='service'>
+      <image src="../../assets/imgs/shuidianmugong.jpg" mode="scaleToFill"/>
+      <text>水电木工</text>
+    </view>
+    <view class='service'>
+      <image src="../../assets/imgs/tiepifang.jpg" mode="scaleToFill"/>
+      <text>铁皮房建造</text>
+    </view>
+    <view class='service'>
+      <image src="../../assets/imgs/lihejinmenchuang.jpg" mode="scaleToFill"/>
+      <text>铝合金门窗</text>
+    </view>
+  
+  </view>
+
 </view>

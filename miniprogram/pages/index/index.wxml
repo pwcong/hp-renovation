@@ -34,7 +34,8 @@
   </view>
 
   <view class="imgs">
-  
+
+    <image wx:for="{{imgs}}" wx:key="img-{{index}}" src="{{item}}" bindtap="handleTapImage"></image>
 
   </view>
 
