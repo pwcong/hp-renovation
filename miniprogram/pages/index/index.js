@@ -4,6 +4,7 @@ const app = getApp();
 
 Page({
   data: {
+    imgs: []
   },
   handleNavigateToLocation() {
     wx.navigateTo({
@@ -29,6 +30,19 @@ Page({
     wx.makePhoneCall({
       phoneNumber: '13715236126'
     })
+  },
+  onLoad(){
+
+    const that = this
+
+    wx.request({
+      url: 'https://raw.githubusercontent.com/pwcong/hp-renovation/master/design/static.json',
+      dataType: 'json',
+      success: function(res){
+        console.log(res)
+      }
+    })
+
   }
 
 });
